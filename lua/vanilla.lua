@@ -10,3 +10,6 @@ vim.o.number = true
 vim.o.cursorline = true
 vim.o.termguicolors = true
 vim.cmd("colorscheme tokyonight")
+
+-- keymap
+vim.keymap.set('n', ' t', ":NvimTreeToggle<CR>", {})
