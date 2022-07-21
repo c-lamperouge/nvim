@@ -1,12 +1,14 @@
-require('plugins')
+require("plugins")
 
-require('tab-bar')
-require('status-bar')
-require('file-manager')
+require("tab-bar")
+require("status-bar")
+require("file-manager")
 
-require('tree-sitter')
-require('lsp')
-require('autocompletion')
-require('autopairs')
+require("tree-sitter")
+require("lsp")
+require("auto-completion")
 
-require('vanilla')
+require("auto-pair")
+require("format-lint")
+
+require("vanilla")
