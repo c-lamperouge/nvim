@@ -10,6 +10,7 @@ vim.o.number = true
 vim.o.signcolumn = "yes"
 vim.o.cursorline = true
 vim.o.termguicolors = true
+vim.g.tokyonight_style = "night"
 vim.cmd("colorscheme tokyonight")
 
 -- keymap

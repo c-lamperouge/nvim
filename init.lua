@@ -7,5 +7,6 @@ require('file-manager')
 require('tree-sitter')
 require('lsp')
 require('autocompletion')
+require('autopairs')
 
 require('vanilla')

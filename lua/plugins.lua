@@ -37,4 +37,7 @@ return require('packer').startup(function()
         require('Comment').setup()
     end
   }
+
+  -- autopairs
+  use 'windwp/nvim-autopairs'
 end)
